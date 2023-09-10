@@ -160,7 +160,7 @@ ul li:hover a {
 .banner {
 	background-color: #2D9AB7;
 	background-image: url(../images/DSC00512.png);
-	height: 800px;
+	height: 600px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -222,6 +222,8 @@ footer .footer_column2 h3 {
 footer .footer_column2 p {
 	color: #717070;
 	background-color: #FFFFFF;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .footer_column3 {
