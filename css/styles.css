@@ -250,10 +250,8 @@ footer .footer_column2 h3 {
 	text-align: center;
 }
 footer .footer_column2 p {
-	color: #717070;
-	background-color: #FFFFFF;
-	margin-left: 100px;
-	margin-right: 100px;
+    color: #717070;
+    background-color: #FFFFFF;
 }
 
 .footer_column3 {
