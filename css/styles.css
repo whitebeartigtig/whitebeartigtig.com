@@ -37,7 +37,7 @@ header {
 }
 nav {
 	float: right;
-	width: 50%;
+	width: 100%;
 	text-align: right;
 	margin-right: 25px;
 }
@@ -192,6 +192,30 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+
+.college {
+	color: #000000;
+	text-align: center;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+
+.college_p {
+	color: #000000;
+	text-align: center;
+	padding-right: 100px;
+	width: 100%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
 /* More info */
 footer {
 	background-color: #FFFFFF;
