@@ -6,3 +6,12 @@ details.addEventListener("toggle", (event) => {
     /* the element was toggled closed */
   }
 });
+
+function navbarFunction() {
+  var x = document.getElementById("wbnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
