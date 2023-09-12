@@ -341,34 +341,7 @@ footer {
 	display: none;
 }
 
-details {
-  font:
-    16px "Open Sans",
-    Calibri,
-    sans-serif;
-  width: 620px;
-}
 
-details > summary {
-  padding: 2px 6px;
-  width: 15em;
-  background-color: #ddd;
-  border: none;
-  box-shadow: 3px 3px 4px black;
-  cursor: pointer;
-}
-
-details > p {
-  border-radius: 0 0 10px 10px;
-  background-color: #ddd;
-  padding: 2px 6px;
-  margin: 0;
-  box-shadow: 3px 3px 4px black;
-}
-
-details[open] > summary {
-  background-color: #ccf;
-}
 
 .topnav {
   overflow: hidden;
@@ -419,6 +392,59 @@ details[open] > summary {
     display: block;
     text-align: left;
   }
+}
+
+.college_p {
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+	padding-top: 33px;
+}
+
+.college_h {
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+	padding-top: 75px;
+	padding-bottom: 25px;
+}
+
+.centerelement {
+	text-align: center;
+}
+
+.college_p.centerelement
+{
+	align-content: center
+}
+
+.textwrap {
+    inline-size: auto;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    text-align: center;
+}
+.liststables {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+.liststablesnumbered {
+    display: inline-block;
+    text-align: left;
+}
+
+table,
+td {
+  padding-bottom: 10px;
 }
 
 /*
