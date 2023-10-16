@@ -1,10 +1,304 @@
 <!doctype html>
-<html>
+<html lang="en-US">
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games and Graphics</title>
+<link href="..\..\..\css/styles.css" rel="stylesheet" type="text/css">
+<link href="..\..\..\css/spoilerstyle2.css" rel="stylesheet" type="text/css">
+<script src="..\..\..\js/script.js"></script> 
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #52BAD5;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+	
 <body>
+	<div class="container">
+	  <header>
+		<!--
+    	</a>
+		<nav>
+		  <ul>
+			<li><a href="#project1">Project 1</a></li>
+			<li><a href="#project2">Project 2</a></li>
+			<li><a href="#project3">Project 3</a></li>
+			<li><a href="#fmp">FMP</a></li>
+			<li><a href="#workexperience">Work Experience</a></li>
+		  </ul>
+		</nav>
+		!-->
+		 <div class="topnav" id="wbnav">
+		  <div class="dropdown">
+		  <button class="dropbtn" onclick="myFunction()">Project 1
+		  	<i class="fa fa-caret-down"></i>  
+		  </button>
+		  <div class="dropdown-content" id="myDropdown">
+			<a href="..\..\gamesandgraphics.html">Chris</a>
+			<a href="simon.html">Simon</a>
+			<a href="#">Daisy</a>
+		  </div>
+		  </div>
+		  <!--<a href="#Project1" class="active">Project 1</a>!-->
+		  <a href="#Project2">Project 2</a>
+		  <a href="#Project3">Project 3</a>
+		  <a href="#FMP">FMP</a>
+		  <a href="#Work Experience">Work Experience</a>
+		  <!--
+		  <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		  !-->
+
+		</div>
+		
+		  <script>
+				/* When the user clicks on the button, 
+				toggle between hiding and showing the dropdown content */
+				function myFunction() {
+				  document.getElementById("myDropdown").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("myDropdown");
+					if (myDropdown.classList.contains('show')) {
+					  myDropdown.classList.remove('show');
+					}
+				  }
+				}
+		  </script>	
+		  
+  	  </header>
+	  <section class="college">
+			<h1 class="college_h">Games and Graphics Level 3</h1>
+			<p>Hello and welcome to the section of my website dedicated to my work done during the Games and Graphics Level 3 course at Preston College.</p>
+			<p>Here you can find all of the projects that I have done, along with details on how I got there.</p>
+		<h2 class="college_h" id="Contents_P1">Contents</h2>
+			<div class="row">
+				<div class="column">
+					<div>
+						<a href="#AI_Anchor_Points">Illustrator Anchor Points</a>
+					</div>
+					<div>
+						<a href="#AI_McDonalds_Logo_Recreation">McDonalds Logo Recreation</a>
+					</div>
+					<div>
+						<a href="#AI_Character">My Character</a>
+					</div>
+					<div>
+						<a href="#DESIGN_REFLECTION">Character Design Reflection</a>
+					</div>
+					<div>
+						<a href="#ABOUT_CHAR">About My Chracter</a>
+					</div>
+					<div>
+						<a href="#REFINEMENT">Refinement</a>
+					</div>
+				</div>
+				<div class="column">
+				</div>
+			</div>
+	  	<h4 class="college_h" id="PSvAI">What is the difference between Photoshop and Illustrator?</h4>
+		  	<div class="row">
+		  		<div class="column">
+				  <img style="max-width: 600px" alt="An image showing how Adobe Photoshop uses pixels." src="../../img/Project 1/Simon/Illustrator/Photoshop_p5pEbu2584.png">
+				  <p>Adobe Photoshop</p>
+				</div>
+			  <div class="column">
+				<p><img style="max-width: 600px" alt="An image showing how Adobe Illustrator uses vectors." src="../../img/Project 1/Simon/Illustrator/Illustrator_1mD4ASv1HD.png"></p>
+				<p>Adobe Illustrator</p>
+				<p>&nbsp;</p>
+				<p>The main difference between the two is that Photoshop uses pixels and Illustrator uses anchor points. This can be visualised when zoomed in. Photoshop loses quality when zoomed, but Illustrator does not.</p>
+			  </div>
+		  	</div>
+	  	<h4 class="college_h" id="AI_Anchor_Points">Illustrator Anchor Points</h4>
+		  	<div class="row">
+		  		<div class="column">
+				  <img style="max-width: 600px" alt="A screenshot showing anchor points and what you can do with them in Adobe Illustrator." src="../../img/Project 1/Simon/Illustrator/Illustrator_34LAHl1m2v.png">
+				</div>
+			  <div class="column">
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>In Illustrator, you can create anchor points, these can be connected to each other. You can also control the curves of an anchor point by clicking and dragging.</p>
+			  </div>
+		  	</div>
+		  	<h4 class="college_h" id="AI_McDonalds_Logo_Recreation">McDonalds Logo Recreation</h4>
+		  	<div class="row">
+		  		<div class="column">
+				  <img style="max-width: 600px" alt="A recreation of the McDonalds logo made in Adobe Illustrator." src="../../img/Project 1/Simon/Illustrator/Illustrator_x79okHC5Nj.png">
+				</div>
+			  <div class="column">
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>This is a recreation of the McDonalds logo in Illustrator, it is made up of anchor points, most of which have been curved. </p>
+			  </div>
+		  	</div>
+		  	<h4 class="college_h" id="AI_Character">My Character</h4>
+		  	<div class="row">
+		  		<div class="column">
+				  <img style="max-width: 750px" alt="The original design of my 'Tabaxi' character." src="../../img/Project 1/Simon/Illustrator/Adobe Scan 13 Sep 2023_Page_1.png">
+				  <p>Original Image</p>
+				</div>
+			  <div class="column">
+				<img style="max-width: 750px" alt="the second revision of my 'Tabaxi' chracter." src="../../img/Project 1/Simon/Illustrator/Adobe Scan 13 Sep 2023_Page_2.png">
+				<p>Refined Image</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+			  </div>
+		  	</div>
+		  	<h4 class="college_h" id="DESIGN_REFLECTION">Design Reflection</h4>
+		  	<div class="row">
+				<p>&nbsp;</p>
+				<p>This design was already very good to begin with and could be made even better with some small changes, such as fixing the proportions. The written content was also very good but could also be made more detailed. </p>
+				<p>&nbsp;</p>
+		  	</div>
+		  	<h4 class="college_h" id="ABOUT_CHAR">About My Character</h4>
+		  	<div class="row">
+				<p>&nbsp;</p>
+				<p>The race of this character is Tabaxi, more commonly known as cat folk, they are fast, have average strength and are very intelligent, this explains the cat head and paws that are visible to most. They are also 5 foot and 3 inches, making them about average for the race that they are. </p>
+			  <p>&nbsp;</p>
+			  <p>They are commonly found wearing a shirt, tie and jacket with various badges attached, such as the “A+” badge. They also have flowers in their jacket pocket, these may have a secondary purpose, but they are assumed to just be there for the aesthetics.</p>
+			  <p>&nbsp;</p>
+				<p>They also wear cargo jeans and have plenty of pockets for storing important items such as keys and wallet. Boots are their usual footwear of choice as they are durable and comfortable for the long hours of work, they do.</p>
+			  <p>&nbsp;</p>
+				<p>They do some sort of work in the military, but it is unknown as to what they do. Probably something important if it is that secretive.</p>
+				<p>&nbsp;</p>
+  	    </div>
+		  	<h4 class="college_h" id="REFINEMENT">Refinement</h4>
+			<div class="row">
+				<p>&nbsp;</p>
+				<p>The changes I made, was to remove the guns from the jacket, redraw the head to proper proportions so it looks better with the rest of the body and made the cargo jeans more rounded.</p>
+				<p>&nbsp;</p>
+		  	</div>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+		  <p>&nbsp;</p>
+	  </section>
+		
+  <div class="copyright">General: <a href="mailto:smeredithblake@whitebeartigtig.com"><strong>smeredithblake@whitebeartigtig.com</strong></a></div>
+  <div class="copyright">Business: <a href="mailto:business@whitebeartigtig.com"><strong>business@whitebeartigtig.com</strong></a></div>
+  <div class="copyright"><strong>United Kingdom</strong></div>
+  <div class="copyright">&copy;2015-2023 <strong>whitebear, All Rights Reserved</strong></div>
+	
+		<!--
+			<table style="margin-right: auto; margin-left: auto;">
+				<thead>
+				</thead>
+				<tbody>
+					<tr rowspan="1">
+						<td class="liststablesnumbered">
+						Hello and welcome to the section of my website dedicated to my work done during the Games and Graphics Level 3 course at Preston College.
+						</td>
+						<td class="liststablesnumbered">
+						Here you can find all of the projects that I have done, along with details on how I got there.
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<main>
+			<details style="background-color: #C298E6;">
+				<summary>
+					<h2>Project 1</h2>
+				</summary>
+				<div style="border: 2px solid #2C9AB7;">
+					<p>more testing text</p>
+					<div>
+						<details closed>
+							<summary style="">spoiler</summary>
+							<p>test text</p>
+						</details>
+					</div>
+				</div>
+			</details>
+		</main>
+	  <!--
+	  <details closed>
+	    <summary>spoiler</summary>
+	    <p> test text </p>
+      </details>
+	  !-->
+	</div>
 </body>
 </html>
