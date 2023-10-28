@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Games and Graphics</title>
+<link href="..\..\..\css/styles.css" rel="stylesheet" type="text/css">
+<link href="..\..\..\css/spoilerstyle2.css" rel="stylesheet" type="text/css">
+<script src="..\..\..\js/script.js"></script> 
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: #52BAD5;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+</style>
+	
+<body>
+	<div class="container">
+	  <header>
+		<!--
+    	</a>
+		<nav>
+		  <ul>
+			<li><a href="#project1">Project 1</a></li>
+			<li><a href="#project2">Project 2</a></li>
+			<li><a href="#project3">Project 3</a></li>
+			<li><a href="#fmp">FMP</a></li>
+			<li><a href="#workexperience">Work Experience</a></li>
+		  </ul>
+		</nav>
+		!-->
+		 <div class="topnav" id="wbnav">
+		  <div class="dropdown">
+		  <button class="dropbtn" onclick="myFunction()">Project 1
+		  	<i class="fa fa-caret-down"></i>  
+		  </button>
+		  <div class="dropdown-content" id="myDropdown">
+			<a href="..\..\gamesandgraphics.html">Chris</a>
+			<a href="..\Simon\simon.html">Simon</a>
+			<a href="#">Daisy</a>
+		  </div>
+		  </div>
+		  <!--<a href="#Project1" class="active">Project 1</a>!-->
+		  <a href="#Project2">Project 2</a>
+		  <a href="#Project3">Project 3</a>
+		  <a href="#FMP">FMP</a>
+		  <a href="#Work Experience">Work Experience</a>
+		  <!--
+		  <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		  !-->
+
+		</div>
+		
+		  <script>
+				/* When the user clicks on the button, 
+				toggle between hiding and showing the dropdown content */
+				function myFunction() {
+				  document.getElementById("myDropdown").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("myDropdown");
+					if (myDropdown.classList.contains('show')) {
+					  myDropdown.classList.remove('show');
+					}
+				  }
+				}
+		  </script>	
+		  
+  	  </header>
+	  <section class="college">
+			<h1 class="college_h">Games and Graphics Level 3</h1>
+			<p>Hello and welcome to the section of my website dedicated to my work done during the Games and Graphics Level 3 course at Preston College.</p>
+			<p>Here you can find all of the projects that I have done, along with details on how I got there.</p>
+		<h2 class="college_h" id="Contents_P1">Contents</h2>
+				<div>
+					<a href="#GameItems">Game Items</a>
+				</div>
+		  		<div>
+		  			<a href="#CharacterShapes">Shaped Characters</a>
+		  		</div>
+		  		<div>
+		  			<a href="#Glacier">Glacier</a>
+		  		</div>
+		<h4 class="college_h" id="GameItems">Game Items</h4>
+			<div class="row">
+		  		<div class="column">
+					<img src="../../img/Project 1/Daisy/Adobe Scan 13 Sep 2023 (1) (1)_Page_1.png" alt="A game style sword drawn using a pencil" style="max-width: 600px">
+				</div>
+			  	<div class="column">
+					<img src="../../img/Project 1/Daisy/Adobe Scan 13 Sep 2023 (1) (1)_Page_2.png" alt="A game style sword drawn using a pencil" style="max-width: 600px">
+			  	</div>
+		  	</div>
+		  	<div class="row">
+		  		<div class="column">
+					<p>This is a sword/dagger design that would make sense in a game, it is drawn using a 2B pencil and an eraser was used to help with getting the shading right. </p>
+					<p>&nbsp;</p>
+				</div>
+				<div class="column">
+					<p>Here is a magical staff drawn using a fine liner, due to the nature of fine liners (and my limited drawing ability) it is a very simple drawing, but I have made an attempt to make the handle look rounded and the crystal ball to look spherical.</p>
+				</div>
+		  	</div>
+		    <div class="row">
+		  		<div class="column">
+					<p>&nbsp;</p>
+					<img src="../../img/Project 1/Daisy/Adobe Scan 13 Sep 2023 (1) (1)_Page_3.png" alt="A game style sword drawn using a pencil" style="max-width: 600px">
+				</div>
+			  	<div class="column">
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>&nbsp;</p>
+					<p>Lastly, I have drawn a dagger using a permanent marker. The shape resembles a dagger, but is the first thing I would change if I was to redraw it. I also attempted to use shading which did not work very well with the marker, but it is still visible on the picture.</p>
+			  	</div>
+		  	</div>
+		 <h4 class="college_h" id="CharacterShapes">Shaped Characters</h4>
+		  	<img src="../../img/Project 1/Daisy/Adobe Scan 27 Sep 2023 (1).png" alt="A game style sword drawn using a pencil" style="max-width: 750px">
+		  	<p>These characters have been drawn by combining the same (or similar) shape but at different angles and sizes. </p>
+		  	<p>&nbsp;</p>
+		  	<p>First up, we have the Mystical Triangle Cat, it is made up of triangles of different sizes to make what looks somewhat like a cat.</p>
+		  	<p>The whiskers are made up of multiple triangles with one side missing, same goes for the mouth. The body is made up of different sized triangles.</p>
+		  	<p></p>
+		  	<p>&nbsp;</p>
+		  	<p>Next there is the Historical Square Skeleton, which is probably extinct in whichever world it came from. It is made up of sqaures and rectangles.</p>
+		  	<p>The ribcage is drawn out of rectangles, in the case of this drawing the ribcage and empty air could do with more separation, and that is what I would change if I was to draw this again.</p>
+		  	<p>&nbsp;</p>
+		  	<p>The most interesting here, is the Post-Apocalyptic Witch. This character is made up of stars.</p>
+		  	<p>The backstory of this character is that it was once a normal witch, and in an experiment gone wrong it turned into a star, and it's face and body merged into one.</p>
+		  	<p>&nbsp;</p>
+		  	<p>Lastly, there is the Futuristic Snowman, it is made up of circles, and it got it's name because this is exactly what happens to snowmen after winter when they melt. (in the future from when it was built)</p>
+		 <h4 class="college_h" id="Glacier">Glacier</h4>
+		 	<img src="../../img/Project 1/Daisy/IMG_20230920_161725.jpg" alt="A game style sword drawn using a pencil" style="max-width: 1000px">
+		  	<p>&nbsp;</p>
+		  	<p>This drawing is inspired by Glacier (a Minecraft seed), using many of the mountainous elements that definied world generation in Minecraft at the time, it is drawn using oil pastels. Whilst this piece is incomplete, it is easy to tell how this would look if finished. The main element missing is the water from the lakes, which would be filled in with a deep blue colour.</p>
+	  </section>
+		
+  <div class="copyright">General: <a href="mailto:smeredithblake@whitebeartigtig.com"><strong>smeredithblake@whitebeartigtig.com</strong></a></div>
+  <div class="copyright">Business: <a href="mailto:business@whitebeartigtig.com"><strong>business@whitebeartigtig.com</strong></a></div>
+  <div class="copyright"><strong>United Kingdom</strong></div>
+  <div class="copyright">&copy;2015-2023 <strong>whitebear, All Rights Reserved</strong></div>
+	
+		<!--
+			<table style="margin-right: auto; margin-left: auto;">
+				<thead>
+				</thead>
+				<tbody>
+					<tr rowspan="1">
+						<td class="liststablesnumbered">
+						Hello and welcome to the section of my website dedicated to my work done during the Games and Graphics Level 3 course at Preston College.
+						</td>
+						<td class="liststablesnumbered">
+						Here you can find all of the projects that I have done, along with details on how I got there.
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<main>
+			<details style="background-color: #C298E6;">
+				<summary>
+					<h2>Project 1</h2>
+				</summary>
+				<div style="border: 2px solid #2C9AB7;">
+					<p>more testing text</p>
+					<div>
+						<details closed>
+							<summary style="">spoiler</summary>
+							<p>test text</p>
+						</details>
+					</div>
+				</div>
+			</details>
+		</main>
+	  <!--
+	  <details closed>
+	    <summary>spoiler</summary>
+	    <p> test text </p>
+      </details>
+	  !-->
+	</div>
+</body>
+</html>
