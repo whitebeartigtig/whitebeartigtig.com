@@ -105,15 +105,45 @@
 		  </button>
 		  <div class="dropdown-content" id="myDropdown">
 			<a href="..\..\gamesandgraphics.html">Chris</a>
-			<a href="..\Simon\simon.html">Simon</a>
-			<a href="#">Daisy</a>
+			<a href="..\..\Project 1\Simon\simon.html">Simon</a>
+			<a href="..\..\Project 1\Daisy\daisy.html">Daisy</a>
 		  </div>
 		  </div>
 		  <!--<a href="#Project1" class="active">Project 1</a>!-->
-		  <a href="#Project2">Project 2</a>
-		  <a href="#Project3">Project 3</a>
-		  <a href="#FMP">FMP</a>
-		  <a href="#Work Experience">Work Experience</a>
+		  <div class="dropdown">
+		  <button class="dropbtn" onclick="myFunction2()">Project 2
+		  	<i class="fa fa-caret-down"></i>  
+		  </button>
+		  <div class="dropdown-content" id="myDropdown2">
+			<a href="..\Chris\chris.html">Chris</a>
+			<a href=".\Simon\simon.html">Simon</a>
+			<a href=".\daisy.html">Daisy</a>
+		  </div>
+		  </div>
+		  <div class="dropdown">
+		  <button class="dropbtn" onclick="myFunction3()">Project 3
+		  	<i class="fa fa-caret-down"></i>  
+		  </button>
+		  <div class="dropdown-content" id="myDropdown3">
+			<a href="..\..\Project 3\Chris\chris.html">Chris</a>
+			<a href="..\..\Project 3\Simon\simon.html">Simon</a>
+			<a href="..\..\Project 3\Daisy\daisy.html">Daisy</a>
+		  </div>
+		  </div>
+		  <div class="dropdown">
+		  <button class="dropbtn" onclick="myFunction4()">FMP
+		  	<i class="fa fa-caret-down"></i>  
+		  </button>
+		  <div class="dropdown-content" id="myDropdown4">
+		  </div>
+		  </div>
+		  <div class="dropdown">
+		  <button class="dropbtn" onclick="myFunction5()">Work Experience
+		  	<i class="fa fa-caret-down"></i>  
+		  </button>
+		  <div class="dropdown-content" id="myDropdown5">
+		  </div>
+		  </div>
 		  <!--
 		  <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
 			<i class="fa fa-bars"></i>
@@ -138,7 +168,63 @@
 					}
 				  }
 				}
-		  </script>	
+				
+				function myFunction2() {
+				  document.getElementById("myDropdown2").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("myDropdown2");
+					if (myDropdown2.classList.contains('show')) {
+					  myDropdown2.classList.remove('show');
+					}
+				  }
+				}
+				
+				function myFunction3() {
+				  document.getElementById("myDropdown3").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("myDropdown3");
+					if (myDropdown3.classList.contains('show')) {
+					  myDropdown3.classList.remove('show');
+					}
+				  }
+				}
+				
+				function myFunction4() {
+				  document.getElementById("myDropdown4").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("myDropdown4");
+					if (myDropdown4.classList.contains('show')) {
+					  myDropdown4.classList.remove('show');
+					}
+				  }
+				}
+				
+				function myFunction5() {
+				  document.getElementById("myDropdown5").classList.toggle("show");
+				}
+
+				// Close the dropdown if the user clicks outside of it
+				window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+				  var myDropdown = document.getElementById("myDropdown5");
+					if (myDropdown5.classList.contains('show')) {
+					  myDropdown5.classList.remove('show');
+					}
+				  }
+				}
+		  </script>
 		  
   	  </header>
 	  <section class="college">
