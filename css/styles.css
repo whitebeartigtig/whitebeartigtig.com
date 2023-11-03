@@ -456,6 +456,11 @@ td {
   width: 50%;
 }
 
+.column20 {
+  float: left;
+  width: 20%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
