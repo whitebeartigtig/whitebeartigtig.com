@@ -466,6 +466,11 @@ td {
   width: 33%;
 }
 
+.column25 {
+  float: left;
+  width: 25%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
